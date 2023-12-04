@@ -1,4 +1,4 @@
-
+Нужен доступ к сайту microsoft.com
 This also works
 
 $UseWUServer = Get-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" -Name "UseWUServer" | Select-Object -ExpandProperty UseWUServer
